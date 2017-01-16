@@ -7,7 +7,7 @@
 .grow { transition: all .4s ease-in-out; }
 .grow:hover {
   transform: scale(1.1);
-  text-shadow: 0px 0px 20px rgba(240, 240, 0, .8);
+  text-shadow: -2px -3px 19px black;
 }
 
 body {
@@ -30,6 +30,7 @@ a:hover {
 
 h1 {
   font-size: 4em;
+  text-shadow: 3px 3px 2px black;
 }
 
 .wrapper {
