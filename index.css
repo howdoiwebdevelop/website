@@ -51,9 +51,11 @@ h1 {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  background-color: rgba(20,20,20,.33);
-  width: 100%;
+  /* safari wants the left position */
+  left:0;
+  background-color: rgba(20, 20, 20, .33);
+  width: 100vw;
   text-align: center;
 }
